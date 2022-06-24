@@ -1,8 +1,8 @@
 {
   "redirects": [
     {
-      "source": "/:path*",
-      "destination": "https://vercel.com/docs/beginner-sveltekit"
+      "source": ":path*",
+      "destination": "https://vercel.com/docs/beginner-sveltekit/:path*"
     }
   ]
 }
