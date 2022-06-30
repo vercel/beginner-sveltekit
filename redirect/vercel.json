@@ -3,6 +3,10 @@
     {
       "source": "/:path*",
       "destination": "https://vercel.com/docs/beginner-sveltekit/:path*"
+    },
+    {
+      "source": "/",
+      "destination": "https://vercel.com/docs/beginner-sveltekit"
     }
   ]
 }
