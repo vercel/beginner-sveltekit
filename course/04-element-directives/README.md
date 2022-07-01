@@ -1,3 +1,6 @@
+# Module 4
+
+[Element Directives](https://vercel.com/docs/beginner-sveltekit/element-directives) ([code](https://github.com/vercel/beginner-sveltekit/tree/main/course/04-element-directives))
 # create-svelte
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).

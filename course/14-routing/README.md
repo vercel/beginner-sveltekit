@@ -1,3 +1,6 @@
+# Module 14
+
+[Routing](https://vercel.com/docs/beginner-sveltekit/routing) ([code](https://github.com/vercel/beginner-sveltekit/tree/main/course/14-routing))
 # create-svelte
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).

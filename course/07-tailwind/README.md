@@ -1,3 +1,6 @@
+# Module 7
+
+[Tailwind](https://vercel.com/docs/beginner-sveltekit/tailwind) ([code](https://github.com/vercel/beginner-sveltekit/tree/main/course/07-tailwind))
 # create-svelte
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).

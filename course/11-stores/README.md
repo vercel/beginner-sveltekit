@@ -1,3 +1,6 @@
+# Module 11
+
+[Stores](https://vercel.com/docs/beginner-sveltekit/svelte-stores) ([code](https://github.com/vercel/beginner-sveltekit/tree/main/course/11-stores))
 # create-svelte
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).

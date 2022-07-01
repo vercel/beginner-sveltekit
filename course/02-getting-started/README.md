@@ -1,3 +1,6 @@
+# Module 2
+
+[Getting started](https://vercel.com/docs/beginner-sveltekit/getting-started) ([code](https://github.com/vercel/beginner-sveltekit/tree/main/course/02-getting-started))
 # create-svelte
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).

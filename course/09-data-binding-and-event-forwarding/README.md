@@ -1,3 +1,6 @@
+# Module 9
+
+[Data Binding and Event Forwarding](https://vercel.com/docs/beginner-sveltekit/data-binding-and-event-handling) ([code](https://github.com/vercel/beginner-sveltekit/tree/main/course/09-data-binding-and-event-forwarding))
 # create-svelte
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).

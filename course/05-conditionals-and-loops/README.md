@@ -1,3 +1,6 @@
+# Module 5
+
+[Conditionals and Loops](https://vercel.com/docs/beginner-sveltekit/conditionals-and-loops) ([code](https://github.com/vercel/beginner-sveltekit/tree/main/course/05-conditionals-and-loops))
 # create-svelte
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
