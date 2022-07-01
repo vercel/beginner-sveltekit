@@ -13,7 +13,7 @@
 - 06: CSS ([code](https://github.com/vercel/beginner-sveltekit/tree/main/course/06-css))
 - 07: Tailwind ([code](https://github.com/vercel/beginner-sveltekit/tree/main/course/07-tailwind))
 - 08: Working With Components ([code](https://github.com/vercel/beginner-sveltekit/tree/main/course/08-components))
-- 09: Data Binding and Event Forwarding ([code](https://github.com/vercel/beginner-sveltekit/tree/main/course/09-data-binding-and&-event-forwarding))
+- 09: Data Binding and Event Forwarding ([code](https://github.com/vercel/beginner-sveltekit/tree/main/course/09-data-binding-and-event-forwarding))
 - 10: Context API ([code](https://github.com/vercel/beginner-sveltekit/tree/main/course/10-context-api))
 - 11: Stores ([code](https://github.com/vercel/beginner-sveltekit/tree/main/course/11-stores))
 - 12: Slots ([code](https://github.com/vercel/beginner-sveltekit/tree/main/course/12-slots))
