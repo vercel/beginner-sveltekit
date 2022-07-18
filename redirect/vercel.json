@@ -6,7 +6,7 @@
     },
     {
       "source": "/",
-      "destination": "https://vercel.com/docs/beginner-sveltekit"
+      "destination": "https://vercel.com/solutions/svelte"
     }
   ]
 }
