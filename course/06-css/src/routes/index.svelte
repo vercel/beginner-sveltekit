@@ -1,6 +1,4 @@
 <script>
-	import GridTile from '$lib/GridTile.svelte';
-
 	let product = {
 		name: 't-shirt',
 		quantity: 0
@@ -20,23 +18,20 @@
 	}
 </script>
 
-<GridTile />
 <button on:click={increment}>Increment</button>
 {#if product.quantity > 10}
-	<div>This product is in stock</div>
+	<div style="background: LightGreen; padding: 4px;">This product is in stock</div>
 {:else if product.quantity === 0}
-	<div>This product is out of stock</div>
+	<div style="background: LightCoral; padding: 4px;">This item is out of stock.</div>
 {:else}
-	<div>Only a few items left in stock!</div>
+	<div style="background: LemonChiffon; padding: 4px;">Only a few items left in stock!</div>
 {/if}
 <h1>Current {product.name} Quantity: {product.quantity}</h1>
 <button on:click={addProduct}> Add Product </button>
 {#each products as product, i (product.name)}
-	<div>
-		<h3>{product.name}</h3>
-		<div>Index: {i}</div>
-		<input type="checkbox" />
-	</div>
+	<div>{product.name}</div>
+	<div>Index: {i}</div>
+	<input type="checkbox" />
 {/each}
 
 <style lang="scss">

@@ -28,7 +28,7 @@ const products = [
 		description: 'This is a sticker.'
 	}
 ]
-export async function get({ params }) {
+export async function GET({ params }) {
 	let product = products.find(product => product.name === params.name)
 
 	return {
