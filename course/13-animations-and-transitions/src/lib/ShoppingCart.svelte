@@ -8,12 +8,12 @@
 		cartItems = data;
 	});
 	function addOne(i) {
-		shuffle(i);
 		cartItems[i].quantity = cartItems[i].quantity + 1;
+		shuffle(i);
 	}
 	function removeOne(i) {
-		shuffle(i);
 		cartItems[i].quantity = cartItems[i].quantity - 1;
+		shuffle(i);
 	}
 	let newItem = {
 		name: 'T-Shirt',
