@@ -16,8 +16,8 @@
 	import Modal from '$lib/Modal.svelte';
 	import { page } from '$app/stores';
 
-	export let product;
-	console.log(product);
+	export let data;
+	$: ({ product } = data);
 	let showModal = false;
 </script>
 
@@ -41,8 +41,7 @@
 					on:click={() => {
 						showModal = false;
 					}}
-					class="bg-pink-500 text-white uppercase font-medium text-white p-2 rounded-md"
-					>Awesome!</button
+					class="bg-pink-500 text-white uppercase font-medium p-2 rounded-md">Awesome!</button
 				>
 			</span>
 		</Modal>

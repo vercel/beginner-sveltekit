@@ -1,8 +1,8 @@
 <script>
-	import '../app.css';
+	import '../../app.css';
 	import ShoppingCart from '$lib/ShoppingCart.svelte';
 	import Modal from '$lib/Modal.svelte';
-	import CartItemsStore from '../Store.js';
+	import CartItemsStore from '../../Store.js';
 
 	let showCart = false;
 	let showModal = false;
@@ -35,7 +35,7 @@
 					on:click={() => {
 						showModal = false;
 					}}
-					class="bg-pink-500 text-white uppercase font-medium text-white p-2 rounded-md"
+					class="bg-pink-500 text-white uppercase font-medium p-2 rounded-md"
 					>{hovering ? 'Close' : 'Awesome!'}</button
 				>
 			</span>
