@@ -26,7 +26,7 @@
 			}}
 		>
 			<slot name="button" {hover}>
-				<button on:click class="bg-black text-white uppercase font-medium text-white p-2 rounded-md"
+				<button on:click class="bg-black uppercase font-medium text-white p-2 rounded-md"
 					>Close</button
 				>
 			</slot>

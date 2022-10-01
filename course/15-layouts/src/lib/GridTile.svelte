@@ -16,7 +16,7 @@
 </script>
 
 <div class="h-[50vh] w-full bg-indigo-600 overflow-hidden">
-	<div class="relative flex flex h-full w-full items-center justify-center">
+	<div class="relative flex h-full w-full items-center justify-center">
 		<img
 			src={product.src}
 			class="max-h-full flex-none transition duration-300 ease-in-out"

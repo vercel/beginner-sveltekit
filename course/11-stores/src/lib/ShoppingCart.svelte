@@ -56,7 +56,7 @@
 		{#if cartItems.length === 0}
 			<div class="mt-20 w-full flex flex-col items-center justify-center overflow-hidden">
 				<div class="w-16 h-16 bg-white rounded-full flex items-center justify-center" />
-				<div class="mt-6 text-center font-bold text-2xl text-center">Your cart is empty.</div>
+				<div class="mt-6 font-bold text-2xl text-center">Your cart is empty.</div>
 			</div>
 		{/if}
 		<div class="overflow-y-auto" style="height: 60%;">
