@@ -18,21 +18,23 @@
 	}
 </script>
 
-<button on:click={increment}>Increment</button>
-{#if product.quantity > 10}
-	<div style="background: LightGreen; padding: 4px;">This product is in stock</div>
-{:else if product.quantity === 0}
-	<div style="background: LightCoral; padding: 4px;">This item is out of stock.</div>
-{:else}
-	<div style="background: LemonChiffon; padding: 4px;">Only a few items left in stock!</div>
-{/if}
-<h1>Current {product.name} Quantity: {product.quantity}</h1>
-<button on:click={addProduct}> Add Product </button>
-{#each products as product, i (product.name)}
-	<div>{product.name}</div>
-	<div>Index: {i}</div>
-	<input type="checkbox" />
-{/each}
+<main>
+	<button on:click={increment}>Increment</button>
+	{#if product.quantity > 10}
+		<div style="background: LightGreen; padding: 4px;">This product is in stock</div>
+	{:else if product.quantity === 0}
+		<div style="background: LightCoral; padding: 4px;">This item is out of stock.</div>
+	{:else}
+		<div style="background: LemonChiffon; padding: 4px;">Only a few items left in stock!</div>
+	{/if}
+	<h1>Current {product.name} Quantity: {product.quantity}</h1>
+	<button on:click={addProduct}> Add Product </button>
+	{#each products as product, i (product.name)}
+		<div>{product.name}</div>
+		<div>Index: {i}</div>
+		<input type="checkbox" />
+	{/each}
+</main>
 
 <style lang="scss">
 	div {
