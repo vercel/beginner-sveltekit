@@ -1,9 +1,7 @@
-<script context="module">
-	export const prerender = true;
-</script>
-
 <script>
-	import Counter from '$lib/Counter.svelte';
+	import Counter from './Counter.svelte';
+	import welcome from '$lib/images/svelte-welcome.webp';
+	import welcome_fallback from '$lib/images/svelte-welcome.png';
 </script>
 
 <svelte:head>
@@ -15,8 +13,8 @@
 	<h1>
 		<span class="welcome">
 			<picture>
-				<source srcset="svelte-welcome.webp" type="image/webp" />
-				<img src="svelte-welcome.png" alt="Welcome" />
+				<source srcset={welcome} type="image/webp" />
+				<img src={welcome_fallback} alt="Welcome" />
 			</picture>
 		</span>
 
@@ -24,7 +22,7 @@
 	</h1>
 
 	<h2>
-		try editing <strong>src/routes/index.svelte</strong>
+		try editing <strong>src/routes/+page.svelte</strong>
 	</h2>
 
 	<Counter />
@@ -36,7 +34,7 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		flex: 1;
+		flex: 0.6;
 	}
 
 	h1 {
