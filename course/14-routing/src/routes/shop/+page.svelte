@@ -21,7 +21,7 @@
 
 <div>
 	<ul class="grid grid-flow-row gap-4 grid-cols-2 md:grid-cols-3">
-		{#each displayedProducts as product, i (product.node.id)}
+		{#each displayedProducts as product, i (i)}
 			<li>
 				<div>
 					<GridTile {product} />
