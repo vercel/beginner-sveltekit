@@ -1,4 +1,6 @@
 <script>
+	throw new Error("@migration task: Add data prop (https://github.com/sveltejs/kit/discussions/5774#discussioncomment-3292707)");
+
 	import GridTile from '$lib/GridTile.svelte';
 	import Modal from '$lib/Modal.svelte';
 	import { page } from '$app/stores';
