@@ -20,6 +20,6 @@
 	Click Me!
 </button>
 <div on:mousemove={handleClick} style="background: LawnGreen; padding: 20px;">
-	You can click the green.
-	<div style="background: OrangeRed; padding: 20px;">You can't click the red</div>
+	Mousemove in green logged n console
+	<div style="background: OrangeRed; padding: 20px;">Mousemove not logged for red</div>
 </div>
