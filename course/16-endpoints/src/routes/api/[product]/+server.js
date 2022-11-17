@@ -1,3 +1,5 @@
+import { error } from '@sveltejs/kit';
+
 const products = [
 	{
 		name: 'cup',
@@ -27,9 +29,14 @@ const products = [
 		quantity: 1,
 		description: 'This is a sticker.'
 	}
-]
-export async function load({ params }) {
-	let product = products.find(product => product.name === params.name)
+];
 
-	return { product };
+export async function GET({ params }) {
+	const productName = params.product;
+	let product = products.find((product) => product.name === productName);
+
+	if (!product) {
+		throw error(400, 'No product exists.');
+	}
+	return new Response(JSON.stringify(product));
 }

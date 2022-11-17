@@ -5,7 +5,7 @@
 		price: '$0',
 		quantity: 1
 	};
-
+	console.log(product);
 	import CartItemsStore from '../Store.js';
 
 	function addToCart() {
