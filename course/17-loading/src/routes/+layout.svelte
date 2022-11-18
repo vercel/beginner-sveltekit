@@ -3,7 +3,8 @@
 	import ShoppingCart from '$lib/ShoppingCart.svelte';
 	import Modal from '$lib/Modal.svelte';
 	import CartItemsStore from '../Store.js';
-
+	import { page } from '$app/stores';
+	console.log($page.data.product);
 	let showCart = false;
 	let showModal = false;
 	let cartCount = 0;
