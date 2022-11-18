@@ -3,7 +3,8 @@
 	import ShoppingCart from '$lib/ShoppingCart.svelte';
 	import Modal from '$lib/Modal.svelte';
 	import CartItemsStore from '../Store.js';
-
+	import { page } from '$app/stores';
+	console.log($page.data.product);
 	let showCart = false;
 	let showModal = false;
 	let cartCount = 0;
@@ -45,7 +46,7 @@
 		<nav class="flex items-center border-b border-zinc-700 p-4 lg:px-6">
 			<div class="flex w-full items-center justify-between">
 				<div class="mr-4">
-					<a href="/" sveltekit:prefetch class="">
+					<a href="/" class="">
 						<picture>
 							<source srcset="/svelte_logo.png" type="image/png" />
 							<img src="/svelte_logo.png" alt="Svelte Logo" class="h-8" />

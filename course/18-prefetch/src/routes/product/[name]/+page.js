@@ -1,3 +1,5 @@
+import { error } from '@sveltejs/kit';
+
 const products = [
 	{
 		name: 'cup',
@@ -27,11 +29,13 @@ const products = [
 		quantity: 1,
 		description: 'This is a sticker.'
 	}
-]
-export async function GET({ params }) {
-	let product = products.find(product => product.name === params.handle)
+];
 
+export function load({ params }) {
+	const productName = params.name;
+	let product = products.find((product) => product.name === productName);
+	console.log(product);
 	return {
-		body: {product}
+		product
 	};
 }

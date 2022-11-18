@@ -18,7 +18,7 @@
 <div class="h-[50vh] w-full bg-indigo-600 overflow-hidden">
 	<a
 		href={`/product/${product.name.toLowerCase()}`}
-		sveltekit:prefetch
+		data-sveltekit-prefetch
 		class="relative flex h-full w-full items-center justify-center"
 	>
 		<img

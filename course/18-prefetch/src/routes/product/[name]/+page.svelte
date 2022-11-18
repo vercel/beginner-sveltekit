@@ -1,24 +1,11 @@
-<script context="module">
-	export async function load({ params, fetch }) {
-		const response = await fetch(`/product/${params.name}.json`);
-		const product = await response.json();
-
-		return {
-			props: {
-				product: product.product
-			}
-		};
-	}
-</script>
-
 <script>
 	import GridTile from '$lib/GridTile.svelte';
 	import Modal from '$lib/Modal.svelte';
-	import { page } from '$app/stores';
 
-	export let product;
-	console.log(product);
+	export let data;
+
 	let showModal = false;
+	let product = data.product;
 </script>
 
 <div>
@@ -33,7 +20,7 @@
 			</span>
 			<span slot="body">
 				<div class="mb-4">
-					{product.name} is on sale! It is only {product.price}
+					{product?.name} is on sale! It is only {product?.price}
 				</div>
 			</span>
 			<span slot="button">
@@ -54,7 +41,7 @@
 			</div>
 		</div>
 		<div class="md:w-1/3 h-full p-6 text-xl">
-			<p class="">{product.description}</p>
+			<p class="">{product?.description}</p>
 			<button class="text-base uppercase font-medium w-full bg-white text-black mt-6 p-2">
 				Add To Cart
 			</button>
